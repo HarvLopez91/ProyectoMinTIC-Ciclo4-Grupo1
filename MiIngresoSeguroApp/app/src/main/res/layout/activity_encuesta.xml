@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,37 +8,6 @@
     android:background="#2679D5"
     android:backgroundTintMode="screen"
     tools:context=".MainActivity">
-
-    <ScrollView
-        android:id="@+id/Vertical_Scroll_view"
-        style="@android:style/Widget.DeviceDefault.ScrollView"
-        android:layout_width="412dp"
-        android:layout_height="896dp"
-        android:accessibilityHeading="true"
-        android:accessibilityLiveRegion="none"
-        android:accessibilityTraversalAfter="@id/txtinicial"
-        android:accessibilityTraversalBefore="@id/select_Q_18"
-        android:alwaysDrawnWithCache="true"
-        android:animateLayoutChanges="true"
-        android:animationCache="true"
-        android:clipToPadding="true"
-        android:importantForAccessibility="auto"
-        android:scrollbarStyle="outsideInset"
-        android:scrollbarThumbVertical="@drawable/ic_launcher_foreground"
-        android:scrollbarTrackVertical="@drawable/ic_launcher_foreground"
-        android:scrollbars="vertical"
-        android:textAlignment="center"
-        android:visibility="visible"
-        tools:visibility="visible">
-
-        <LinearLayout
-            android:id="@+id/Vertical_Scroll_V_L"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:visibility="visible"
-            tools:visibility="visible" />
-    </ScrollView>
 
     <TextView
         android:id="@+id/txtinicial"
@@ -230,194 +198,9 @@
         app:layout_constraintTop_toBottomOf="@+id/Question_8" />
 
     <Switch
-        android:id="@+id/Question_14"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Question_14"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate_Q_13"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:text="@string/Question_14" />
-
-    <Switch
-        android:id="@+id/Item_1"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif"
-        android:minHeight="48dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Selection_1"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Switch
-        android:id="@+id/Item_2"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_2"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_1"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:text="@string/Item_2" />
-
-    <Switch
-        android:id="@+id/Item_3"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_3"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_2"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:text="@string/Item_3" />
-
-    <Switch
-        android:id="@+id/Item_4"
-        android:layout_width="387dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_4"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_3"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:text="@string/Item_4" />
-
-    <Switch
-        android:id="@+id/Item_5"
-        android:layout_width="387dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_5"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_4"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Switch
-        android:id="@+id/Item_6"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_6"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_7"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Switch
-        android:id="@+id/Item_7"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Item_7"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_5"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/Item_8"
-        android:layout_width="106dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Item_ADD"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/Input_text"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Item_6" />
-
-    <EditText
-        android:id="@+id/Input_text"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="209dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="4dp"
-        android:alpha="@dimen/material_emphasis_disabled"
-        android:ems="10"
-        android:fontFamily="sans-serif"
-        android:gravity="start|top"
-        android:hint="@string/Item_ADD"
-        android:inputType="textMultiLine"
-        android:lineSpacingExtra="10sp"
-        android:textAlignment="textStart"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
-        android:textSize="10sp"
-        android:textStyle="bold|italic"
-        android:typeface="sans"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Item_8"
-        app:layout_constraintTop_toBottomOf="@+id/Item_6"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Switch
         android:id="@+id/Question_9"
         android:layout_width="387dp"
-        android:layout_height="19dp"
+        android:layout_height="39dp"
         android:layout_marginTop="4dp"
         android:showText="true"
         android:splitTrack="true"
@@ -426,25 +209,104 @@
         android:textOn="@string/SI"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Input_text"
+        app:layout_constraintTop_toBottomOf="@+id/Selection_1"
         tools:ignore="TouchTargetSizeCheck"
         tools:text="@string/Question_9" />
 
+    <EditText
+        android:id="@+id/editTextDate_Q_15"
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="4"
+        android:inputType="date"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Question_15"
+        app:layout_constraintTop_toBottomOf="@+id/Question_14"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
     <TextView
-        android:id="@+id/Question_10"
-        android:layout_width="141dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/Question_15"
+        android:layout_width="293dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
-        android:text="@string/Question_10"
+        android:text="@string/Question_15"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="10sp"
         android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/input_text_Q_10"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate_Q_15"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_9" />
+        app:layout_constraintTop_toBottomOf="@+id/Question_14" />
+
+    <TextView
+        android:id="@+id/Question_12"
+        android:layout_width="259dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Question_12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="10sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/select_Q_12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question_11" />
+
+    <TextView
+        android:id="@+id/Question_13"
+        android:layout_width="293dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Question_13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="10sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate_Q_13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question_12" />
+
+    <Switch
+        android:id="@+id/Question_14"
+        android:layout_width="387dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
+        android:showText="true"
+        android:splitTrack="true"
+        android:text="@string/Question_14"
+        android:textOff="@string/NO"
+        android:textOn="@string/SI"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate_Q_13"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="@string/Question_14" />
+
+    <EditText
+        android:id="@+id/editTextDate_Q_13"
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="4"
+        android:inputType="date"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Question_13"
+        app:layout_constraintTop_toBottomOf="@+id/Question_12"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/input_text_Q_10"
@@ -464,6 +326,7 @@
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
+        android:textColorHint="#000000"
         android:textSize="10sp"
         android:textStyle="bold|italic"
         android:typeface="sans"
@@ -472,6 +335,24 @@
         app:layout_constraintStart_toEndOf="@+id/Question_10"
         app:layout_constraintTop_toBottomOf="@+id/Question_9"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <Switch
+        android:id="@+id/Question_16"
+        android:layout_width="387dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="4dp"
+        android:showText="true"
+        android:splitTrack="true"
+        android:text="@string/Question_16"
+        android:textOff="@string/NO"
+        android:textOn="@string/SI"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate_Q_15"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="@string/Question_16" />
 
     <Switch
         android:id="@+id/Question_11"
@@ -485,26 +366,11 @@
         android:textOn="@string/SI"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_text_Q_10"
         tools:ignore="TouchTargetSizeCheck"
         tools:text="@string/Question_11" />
-
-    <TextView
-        android:id="@+id/Question_12"
-        android:layout_width="259dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Question_12"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/select_Q_12"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_11" />
 
     <Spinner
         android:id="@+id/select_Q_12"
@@ -527,80 +393,19 @@
         tools:ignore="@tools:sample/full_names[0],TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/Question_13"
-        android:layout_width="293dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Question_13"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/editTextDate_Q_13"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_12" />
-
-    <EditText
-        android:id="@+id/editTextDate_Q_13"
-        android:layout_width="71dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="4dp"
-        android:ems="4"
-        android:inputType="date"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Question_13"
-        app:layout_constraintTop_toBottomOf="@+id/Question_12"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/Question_15"
-        android:layout_width="293dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Question_15"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/editTextDate_Q_15"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_14" />
-
-    <EditText
-        android:id="@+id/editTextDate_Q_15"
-        android:layout_width="71dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="4dp"
-        android:ems="4"
-        android:inputType="date"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Question_15"
-        app:layout_constraintTop_toBottomOf="@+id/Question_14"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <Switch
-        android:id="@+id/Question_16"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
+        android:id="@+id/Question_10"
+        android:layout_width="141dp"
+        android:layout_height="20dp"
         android:layout_marginTop="4dp"
-        android:showText="true"
-        android:splitTrack="true"
-        android:text="@string/Question_16"
-        android:textOff="@string/NO"
-        android:textOn="@string/SI"
+        android:fontFamily="sans-serif"
+        android:text="@string/Question_10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/input_text_Q_10"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate_Q_15"
-        tools:ignore="TouchTargetSizeCheck"
-        tools:text="@string/Question_16" />
+        app:layout_constraintTop_toBottomOf="@+id/Question_9" />
 
     <Switch
         android:id="@+id/Question_17"
@@ -657,5 +462,14 @@
         app:layout_constraintTop_toBottomOf="@+id/Question_17"
         tools:ignore="@tools:sample/full_names[0],TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Send"
+        android:text="Enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question_18" />
 </androidx.constraintlayout.widget.ConstraintLayout>
