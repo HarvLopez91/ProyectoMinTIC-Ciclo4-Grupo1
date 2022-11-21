@@ -16,6 +16,6 @@ public class EncuestaActivity extends AppCompatActivity {
     public void configUsuario(View view){
         startActivity(new Intent(this,ConfPerfilActivity.class));
     }
-    public void Send(View view){startActivity(new Intent(this,MainActivity.class));
+    public void Send(View view){startActivity(new Intent(this,PerfilActivity.class));
     }
 }

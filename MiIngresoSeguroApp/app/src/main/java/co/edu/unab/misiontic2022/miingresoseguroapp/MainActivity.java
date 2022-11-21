@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this,ConfPerfilActivity.class));
     }
     public void inicio(View view){
-        startActivity(new Intent(this,PerfilActivity.class));
+        startActivity(new Intent(this,EncuestaActivity.class));
     }
 }
