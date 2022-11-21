@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mi Ingreso Seguro App</string>
+    <string name="name">Jhan Franco Meza</string>
+    <string name="programa">ingenieria</string>
+    <string name="genero">hombre</string>
+    <string name="hora_ingreso">7:00 a.m</string>
+    <string name="validacion_ingreso">si</string>
+    <string name="ingreso">Ingreso</string>
+
+
+</resources>
