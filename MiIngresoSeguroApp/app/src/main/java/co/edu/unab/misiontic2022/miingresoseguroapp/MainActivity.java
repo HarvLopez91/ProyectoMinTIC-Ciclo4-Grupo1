@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView mTextViewRegister;
 
     private final static String TAG = "CV_Login";
     @Override
@@ -15,6 +18,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate");
         setContentView(R.layout.activity_main);
+
+        mTextViewRegister=findViewById(R.id.textViewRegister);
+        mTextViewRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new
+                        Intent(MainActivity.this,RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
