@@ -1,4 +1,5 @@
 <resources>
+    <string name="hint_usuario">Usuario</string>
     <string name="app_name">Mi Ingreso Seguro App</string>
     <string name="name">Jhan Franco Meza</string>
     <string name="programa">ingenieria</string>
@@ -53,5 +54,6 @@
     <string name="Question_16">¿YA RECIBIÓ LA DOSIS DE REFUERZO?</string>
     <string name="Question_17">¿HA PRESENTADO RESULTADO POSITIVO PARA COVID-19?</string>
     <string name="Question_18">GÉNERO:</string>
-
+    <string name="hint_password">password</string>
+    <string name="button_login">login</string>
 </resources>

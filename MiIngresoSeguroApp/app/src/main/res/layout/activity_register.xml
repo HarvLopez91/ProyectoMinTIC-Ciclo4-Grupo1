@@ -42,6 +42,14 @@
                 android:src="@drawable/person_add"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleimageback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back_left"
+        app:civ_circle_background_color="@color/white"
+        android:layout_margin="15dp"
+        />
 
         </io.github.florent37.shapeofview.shapes.ArcView>
 

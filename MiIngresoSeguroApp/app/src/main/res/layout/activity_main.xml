@@ -11,45 +11,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:src="@mipmap/ic_launcher_1"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_1" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            >
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/correo"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                />
+                android:src="@drawable/correo" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/white"
-                >
+                android:textColorHint="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparente"
                     android:hint="Correo electrónico"
-                    android:textColor="@color/white"
                     android:inputType="textEmailAddress"
-                    />
+                    android:textColor="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
@@ -114,8 +109,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Regístrate"
-                android:textStyle="bold"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -125,7 +120,6 @@
             android:alpha="0.2" />
 
     </LinearLayout>
-
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
