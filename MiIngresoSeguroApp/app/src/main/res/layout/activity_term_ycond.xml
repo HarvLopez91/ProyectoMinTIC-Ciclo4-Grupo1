@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".TermYCondActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="214dp"
+        android:text="TERMINOS Y CONDICIONES"
+        android:textColor="@color/material_dynamic_primary80"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@id/textView3"
+        android:layout_width="367dp"
+        android:layout_height="534dp"
+        android:text="Declaración Juramentada Declaro que la información ingresada en este formulario corresponde a la verdad y que conozco las implicaciones penales de las declaraciones juramentadas Condiciones Generales de Uso de la wed/app A continuación, detallaremos los términos y condiciones de uso a través de las cuales se regulan el acceso y uso de los usuarios a los servicios y contenidos que facilita salud digital, los usuarios de la solución serán informados de cualquier actualización, ampliación o modificación que pudiera darse en nuestros servicios y, además, se hará público en esta Wed/App Se entenderá por usuario aquella persona que accede, navegue, utilice o participe en los servicios de la solución. Para poder acceder y utilizar el servicio ofrecido por Mi ingreso Seguro, el usuario deberá disponer tanto de conexión a internet como de los medios necesarios para ello (un teléfono móvil, Smartphone, Tablet ya sea sistema operativo Android o IOS.) Audífonos o medios de sonido, que le permitan interactuar con los  (profesionales de la salud) "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="290dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="Send"
+        android:text="Acepto terminos y condiciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Send"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
