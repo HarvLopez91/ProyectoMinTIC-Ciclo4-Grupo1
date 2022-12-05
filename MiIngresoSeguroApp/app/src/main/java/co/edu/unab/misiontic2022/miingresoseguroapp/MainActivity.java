@@ -8,8 +8,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.firebase.firestore.FirebaseFirestore;
 
+
+public class MainActivity extends AppCompatActivity {
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
     TextView mTextViewRegister;
 
     private final static String TAG = "CV_Login";
@@ -18,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate");
         setContentView(R.layout.activity_main);
-
         mTextViewRegister=findViewById(R.id.textViewRegister);
         mTextViewRegister.setOnClickListener(new View.OnClickListener() {
             @Override
