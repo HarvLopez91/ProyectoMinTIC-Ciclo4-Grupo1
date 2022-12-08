@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815212572132",
+    "project_id": "mi-ingreso-seguro-app",
+    "storage_bucket": "mi-ingreso-seguro-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815212572132:android:5bd425c737337e42516bf1",
+        "android_client_info": {
+          "package_name": "co.edu.unab.misiontic2022.miingresoseguroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815212572132-pqs9corsvb0b48hv63gnook6igprgchh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAxSmqVR068l_K8xJsyfgmiHVV38tASM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815212572132-pqs9corsvb0b48hv63gnook6igprgchh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
