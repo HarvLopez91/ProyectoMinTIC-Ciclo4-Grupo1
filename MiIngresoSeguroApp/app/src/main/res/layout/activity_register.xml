@@ -43,6 +43,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"/>
     <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/circleimageback"
         android:layout_width="40dp"
         android:layout_height="40dp"
