@@ -189,27 +189,10 @@
         app:layout_constraintTop_toBottomOf="@+id/Question_7"
         tools:ignore="@tools:sample/full_names[0],TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/Selection_1"
-        android:layout_width="387dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Selection1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/white"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_8" />
-
     <Switch
         android:id="@+id/Question_9"
         android:layout_width="387dp"
         android:layout_height="39dp"
-        android:layout_marginTop="4dp"
         android:showText="true"
         android:splitTrack="true"
         android:text="@string/Question_9"
@@ -220,7 +203,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Selection_1"
+        app:layout_constraintTop_toBottomOf="@+id/Question_8"
         tools:ignore="TouchTargetSizeCheck"
         tools:text="@string/Question_9" />
 
@@ -323,34 +306,6 @@
         app:layout_constraintTop_toBottomOf="@+id/Question_12"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
-    <EditText
-        android:id="@+id/input_text_Q_10"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="209dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="4dp"
-        android:alpha="@dimen/material_emphasis_disabled"
-        android:ems="10"
-        android:fontFamily="sans-serif"
-        android:gravity="start|top"
-        android:hint="@string/Question_10"
-        android:inputType="textMultiLine"
-        android:lineSpacingExtra="10sp"
-        android:textAlignment="textStart"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/white"
-        android:textColorHint="#000000"
-        android:textSize="10sp"
-        android:textStyle="bold|italic"
-        android:typeface="sans"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Question_10"
-        app:layout_constraintTop_toBottomOf="@+id/Question_9"
-        tools:ignore="TouchTargetSizeCheck" />
-
     <Switch
         android:id="@+id/Question_16"
         android:layout_width="387dp"
@@ -374,7 +329,7 @@
         android:id="@+id/Question_11"
         android:layout_width="387dp"
         android:layout_height="19dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:showText="true"
         android:splitTrack="true"
         android:text="@string/Question_11"
@@ -385,7 +340,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_text_Q_10"
+        app:layout_constraintTop_toBottomOf="@+id/Question_9"
         tools:ignore="TouchTargetSizeCheck"
         tools:text="@string/Question_11" />
 
@@ -408,22 +363,6 @@
         app:layout_constraintStart_toEndOf="@+id/Question_12"
         app:layout_constraintTop_toBottomOf="@+id/Question_11"
         tools:ignore="@tools:sample/full_names[0],TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/Question_10"
-        android:layout_width="141dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/Question_10"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/white"
-        android:textSize="10sp"
-        android:typeface="normal"
-        app:layout_constraintEnd_toStartOf="@+id/input_text_Q_10"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Question_9" />
 
     <Switch
         android:id="@+id/Question_17"
