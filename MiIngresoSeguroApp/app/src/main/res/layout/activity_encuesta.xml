@@ -7,7 +7,7 @@
     android:layout_alignParentBottom="false"
     android:background="@color/azul2"
     android:backgroundTintMode="screen"
-    tools:context=".MainActivity">
+    tools:context=".ui.activity.MainActivity">
 
     <TextView
         android:id="@+id/txtinicial"
