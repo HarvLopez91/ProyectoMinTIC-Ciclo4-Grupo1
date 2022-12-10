@@ -26,10 +26,6 @@ public class MainActivity extends AppCompatActivity {
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     FirebaseAuth auth = FirebaseAuth.getInstance();
 
-/*    CollectionReference userCol = db.collection("estudiantes");
-    Map<String, Object> data = new HashMap<>();
-    data.put("email": "correo@correo.com" );*/
-
     TextView mTextViewRegister;
     TextInputEditText mTextViewInputEmail;
     TextInputEditText mTextViewInputPassword;
@@ -39,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "onCreate");
+        /*Log.d(TAG, "onCreate");*/
         setContentView(R.layout.activity_main);
+
         mTextViewRegister = findViewById(R.id.textViewRegister);
         mTextViewInputEmail = findViewById(R.id.TextViewInputEmail);
         mTextViewInputPassword = findViewById(R.id.TextViewInputPassword);
@@ -72,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void inicio(View view){
+/*    public void inicio(View view){
         startActivity(new Intent(this, EncuestaActivity.class));
-    }
+    }*/
 }
