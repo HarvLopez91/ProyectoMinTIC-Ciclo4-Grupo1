@@ -43,6 +43,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"/>
     <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/circleimageback"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -77,6 +78,7 @@
                 android:textColorHint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TextViewInputNombreCompletoRegistro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparente"
@@ -112,6 +114,7 @@
                 android:textColorHint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TextViewInputEmailRegistro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparente"
@@ -147,13 +150,13 @@
                 android:textColorHint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TextViewInputPasswordRegistro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparente"
-                    android:hint="Contraseña"
+                    android:hint="@string/contrase_a"
                     android:inputType="text"
-                    android:textColorHint="@color/black"
-                    />
+                    android:textColorHint="#757575" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
@@ -182,10 +185,11 @@
                 android:textColorHint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TextViewInputPasswordRegistroConfirmación"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparente"
-                    android:hint="Confirmar Contraseña"
+                    android:hint="@string/confirmar_contrase_a"
                     android:inputType="text"
                     android:textColorHint="@color/black"
                     />
@@ -194,12 +198,13 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btnRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
-            android:text="Registrarse" />
+            android:text="@string/registrarse" />
 
     </LinearLayout>
 
