@@ -59,4 +59,9 @@
     <string name="registrarse">Registrarse</string>
     <string name="contrase_a">Contraseña</string>
     <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="reg_strate_ahora">Regístrate Ahora</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="nombre">nombre:</string>
+    <string name="terminos_y_condiciones">TERMINOS Y CONDICIONES</string>
 </resources>
