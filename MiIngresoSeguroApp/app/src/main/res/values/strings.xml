@@ -1,0 +1,62 @@
+<resources>
+    <string name="hint_usuario">Usuario</string>
+    <string name="app_name">Mi Ingreso Seguro App</string>
+    <string name="name">Jhan Franco Meza</string>
+    <string name="programa">ingenieria</string>
+    <string name="genero">hombre</string>
+    <string name="hora_ingreso">7:00 a.m</string>
+    <string name="validacion_ingreso">si</string>
+    <string name="Login">Login</string>
+    <string name="completa_la_encuesta">Completa la Encuesta</string>
+    <string name="Question_1">¿HA PRESENTADO FIEBRE EN LOS ÚLTIMOS 7 DÍAS?</string>
+    <string name="si_no">Switch</string>
+    <string name="SI">Si</string>
+    <string name="NO">No</string>
+    <string name="Question_2">¿HA TENIDO CONTACTO CON ALGUNA PERSONA ENFERMA DE CORONAVIRUS O CASO SOSPECHOSO DE COVID EN LOS ULTIMOS 7 DIAS?</string>
+    <string name="Question_3">PRESENTA  SÍNTOMAS ASOCIADOS AL COVID?</string>
+    <string name="Question_4">¿PRESENTA USTED DIFICULTAD RESPIRATORIA, ASOCIADA A COVID-19?</string>
+    <string name="Question_5">¿PRESENTA USTED TOS PERSISTENTE POR COVID-19?</string>
+    <string name="Question_6">¿TIENE USTED FATIGA/DECAIMIENTO O DEBILIDAD?</string>
+    <string name="Question_7">¿USTED HA TENIDO PÉRDIDA DEL SENTIDO DEL OLFATO O DEL GUSTO EN LOS ÚLTIMOS 7 DÍAS?</string>
+    <string name="Question_8">MODALIDAD DE TRABAJO A REALIZAR EL DIA DE HOY:</string>
+    <string-array name="Modalidad_de_trabajo">
+        <item>Presencial</item>
+        <item>Trabajo en Casa</item>
+    </string-array>
+    <string-array name="Genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="Vacuna">
+        <item>Moderna</item>
+        <item>Sinovac</item>
+        <item>Janssen</item>
+        <item>AstraZeneca</item>
+        <item>Fizer</item>
+    </string-array>
+    <string name="Selection">TRABAJO EN CASA</string>
+    <string name="Selection1">PRESENTA ACTUALMENTE ALGUNA DE LAS SIGUIENTES ENFERMEDADES?:</string>
+    <string name="Item_1">- ENFERMEDAD PULMONAR CRÓNICA O GRAVE:</string>
+    <string name="Item_2">- ENFERMEDAD CARDIACA CRÓNICA O GRAVE:</string>
+    <string name="Item_3">- ENFERMEDAD RENAL CRÓNICA O GRAVE:</string>
+    <string name="Item_4">- ENFERMEDAD HEPÁTICA CRÓNICA:</string>
+    <string name="Item_5">- HIPERTENSIÓN ARTERIAL NO CONTROLADA:</string>
+    <string name="Item_6">- DIABETES NO CONTROLADA:</string>
+    <string name="Item_7">- ENFERMEDAD INMUNOSUPRESORA:</string>
+    <string name="Item_ADD">- OTRA:</string>
+    <string name="Question_9">¿RECIBE TRATAMIENTO PROLONGADO CON CORTICOSTEROIDES Y OTROS MEDICAMENTOS QUE DEBILITAN EL SISTEMA INMUNITARIO, ENTRE OTROS?</string>
+    <string name="Question_10">¿CUÁNTOS AÑOS TIENE?</string>
+    <string name="Question_11">¿HA SIDO VACUNADO CONTRA LA COVID-19?</string>
+    <string name="Question_12">NOMBRE DE LA VACUNA QUE SE LE SUMINISTRÓ:</string>
+    <string name="Question_13">¿EN QUÉ FECHA RECIBIÓ LA APLICACIÓN DE LA VACUNA? (PRIMERA DOSIS)</string>
+    <string name="Question_14">¿YA RECIBIÓ LA SEGUNDA DOSIS?</string>
+    <string name="Question_15">¿EN QUÉ FECHA RECIBIÓ LA APLICACIÓN DE LA VACUNA? (SEGUNDA DOSIS)</string>
+    <string name="Question_16">¿YA RECIBIÓ LA DOSIS DE REFUERZO?</string>
+    <string name="Question_17">¿HA PRESENTADO RESULTADO POSITIVO PARA COVID-19?</string>
+    <string name="Question_18">GÉNERO:</string>
+    <string name="hint_password">password</string>
+    <string name="button_login">login</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+</resources>
